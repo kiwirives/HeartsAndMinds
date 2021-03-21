@@ -32,7 +32,7 @@ params [
     ["_damage", 0, [0]],
     ["_injurer", objNull, [objNull]],
     ["_ammo", "", [""]],
-    ["_hitIndex", 0, [0]],
+    ["_hitIndex", 0, [0]], 
     ["_instigator", objNull, [objNull]]
 ];
 
