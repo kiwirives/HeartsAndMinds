@@ -26,7 +26,7 @@ Author:
 
 ---------------------------------------------------------------------------- */
 
-if ((_this select 1) isEqualType []) exitWith {}; // Some agents return an array when tacking damage 
+if ((_this select 1) isEqualType []) exitWith {}; // Some agents return an array when tacking damage
 
 params [
     ["_unit", objNull, [objNull]],
@@ -34,7 +34,7 @@ params [
     ["_dam", 0, [0]],
     ["_injurer", objNull, [objNull]],
     ["_ammo", "", [""]],
-    ["_hitIndex", 0, [0]], 
+    ["_hitIndex", 0, [0]],
     ["_instigator", objNull, [objNull]]
 ];
 
