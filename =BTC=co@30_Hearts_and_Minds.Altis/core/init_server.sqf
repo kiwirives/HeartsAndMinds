@@ -59,5 +59,5 @@ if (btc_p_side_mission_cycle > 0) then {
 } forEach ["ACE_SpraypaintRed"];
 
 //PMCES Invoke server.sqf
-diag_log "PMCES Initializing...";
+diag_log "PMCES Invoke...";
 [] call compile preprocessFileLineNumbers "server.sqf";
