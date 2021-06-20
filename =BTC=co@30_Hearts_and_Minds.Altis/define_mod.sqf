@@ -29,6 +29,8 @@ btc_custom_loc = [
         ];
 */
 //TODO PMCES restrict arsenal
+//SEE: https://community.bistudio.com/wiki/Arma_3:_CfgWeapons_Items
+//WARN: case sensitive. eg: "optic_Nightstalker"
 private _weapons = [];
 private _magazines = [];
 private _items = [];

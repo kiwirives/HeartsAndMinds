@@ -649,6 +649,9 @@ btc_type_gl = _allclasse select 8;
 
 //Sometimes you need to remove units: - ["Blabla","moreBlabla"];
 //Sometimes you need to add units: + ["Blabla","moreBlabla"];
+//TODO PMCES seems here it could be possible to remove units from factions
+//Mi-6t Hook are sometimes populated with 60 people...
+//This could help us remove "CUP_B_MI6T_CDF" and others shown at http://wiki.audiocustoms.info/index.php?title=Arma_3_CfgVehicles_WEST
 switch (_p_en) do {
     /*case "Myfactionexemple" : {
         btc_type_units = btc_type_units - ["Blabla","moreBlabla"];
